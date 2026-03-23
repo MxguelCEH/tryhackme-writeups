@@ -1,15 +1,23 @@
 # Nmap Room (TryHackMe)
 
-## What I learned
-- How to scan a target
-- What open ports mean
-- Difference between TCP and UDP
+## Objective
+Learn how to scan and identify open ports using Nmap.
 
-## Commands used
+## Tools Used
+- Nmap
+
+## Commands
 nmap -sS 10.10.10.10
 nmap -sV 10.10.10.10
 
-## Important notes
-- Port 80 = HTTP
-- Port 22 = SSH
+## Key Findings
+- Port 22 (SSH) is open
+- Port 80 (HTTP) is open
+
+## What I Learned
+- How to perform a basic scan
+- Difference between stealth scan and version detection
+
+## Notes
 - -sS = stealth scan
+- -sV = service version detection
