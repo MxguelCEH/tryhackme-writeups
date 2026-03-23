@@ -6,3 +6,7 @@ This repository contains my notes and writeups while learning cybersecurity.
 - IT student at ITLA
 - Learning cybersecurity
 - Interested in SOC / Blue Team
+## Topics Covered
+- Nmap
+- Linux Basics
+- Networking
