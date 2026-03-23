@@ -10,14 +10,18 @@ Learn how to scan and identify open ports using Nmap.
 nmap -sS 10.10.10.10
 nmap -sV 10.10.10.10
 
-## Key Findings
+## Results
 - Port 22 (SSH) is open
 - Port 80 (HTTP) is open
 
 ## What I Learned
-- How to perform a basic scan
-- Difference between stealth scan and version detection
+- How to perform port scanning
+- Difference between scan types
 
-## Notes
-- -sS = stealth scan
-- -sV = service version detection
+## Key Concepts
+- Open ports
+- Services
+- TCP scanning
+
+## Conclusion
+This lab helped me understand how attackers and defenders identify open services.
