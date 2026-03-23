@@ -1,0 +1,10 @@
+import socket
+
+target = input("Enter target IP: ")
+
+for port in range(20, 100):
+    s = socket.socket()
+    result = s.connect_ex((target, port))
+    if result == 0:
+        print(f"Port {port} is open")
+    s.close()
